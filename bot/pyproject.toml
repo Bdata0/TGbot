@@ -7,8 +7,16 @@ license = "CC 2.0"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+loguru = "^0.7.0"
+alembic = "^1.11.1"
+sqlalchemy = "^2.0.16"
+python-telegram-bot = "^20.3"
+psycopg2-binary = "^2.9.6"
+minio = "^7.1.15"
 
 [tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+ipython = "^8.14.0"
 
 
 [build-system]
